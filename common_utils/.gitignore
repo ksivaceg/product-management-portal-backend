@@ -1,0 +1,47 @@
+  # Python
+    __pycache__/
+    *.pyc
+    *.pyo
+    *.pyd
+    *.~
+    *#
+    .Python
+    build/
+    develop-eggs/
+    dist/
+    downloads/
+    eggs/
+    .eggs/
+    lib/
+    lib64/
+    parts/
+    sdist/
+    var/
+    wheels/
+    share/python-wheels/
+    *.egg-info/
+    .installed.cfg
+    *.egg
+    MANIFEST
+
+    # Virtualenv
+    .venv/
+    venv/
+    ENV/
+    env/
+    env.bak/
+    venv.bak/
+
+    # AWS SAM/CDK/Serverless Framework build artifacts
+    .aws-sam/
+    .serverless/
+    cdk.out/
+
+    # Local secrets/config (if any, should ideally use AWS Systems Manager Parameter Store or Secrets Manager)
+    .env
+    local.settings.json
+
+    # IDE specific
+    .vscode/
+    .idea/
+    *.DS_Store
